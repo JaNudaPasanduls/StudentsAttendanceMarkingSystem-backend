@@ -3,7 +3,7 @@ const auth = require('../middleware/auth');
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 
-router.post('/create', auth, async (req, res) => {
+router.post('/create', async (req, res) => {
     try {
         if (req.user.admin) {
             const { fname, lname, email, password } = req.body;
