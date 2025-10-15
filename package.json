@@ -8,7 +8,7 @@
     "dev": "nodemon start"
   }, 
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "author": "J a N u d a",
   "license": "ISC",
